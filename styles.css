@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "DMSans-Medium";
+  src: url("./assets//fonts/static/DMSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: "DMSans-MediumItalic";
+  src: url("./assets//fonts/static/DMSans-MediumItalic.ttf");
+}
+@font-face {
+  font-family: "DMSansRegular";
+  src: url("./assets//fonts/static/DMSans-Regular.ttf") format('truetype');;
+}
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Black: hsl(0, 0%, 7%);
+  --Purple100: hsl(254, 88%, 90%);
+  --Purple500: hsl(256, 67%, 59%);
+  --Yellow100: hsl(31, 66%, 93%);
+  --Yellow500: hsl(39, 100%, 71%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+
+}
+
+.grid-container {
+  display: grid; 
+  grid-template-columns: 1fr;
+  gap :10px;
+}
+
+.card-container{
+    width: 350px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+}
